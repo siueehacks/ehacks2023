@@ -1,0 +1,118 @@
+@import "../styles/variables.scss";
+
+.container {
+  position: fixed;
+  top: 6vh;
+  z-index: 100;
+  width: 75vw;
+  .component {
+    font-size: 23px;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    color: white;
+  }
+  .component:hover {
+    text-decoration: underline;
+  }
+}
+.navbarContainer {
+  position: fixed;
+  z-index: 80;
+  width: 100vw;
+  height: 13vh;
+  opacity: 85%;
+  box-shadow: 10px 10px 100px 10px #331444;
+  background: #231373d6;
+}
+
+.navbg {
+  -webkit-mask-image: url("/svg/about/navbar_mask.svg");
+  mask-image: url("/svg/about/navbar_mask.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  z-index: 120;
+  width: 85vw;
+  position: fixed;
+  height: 2vh;
+  left: 6vw;
+  right: 6vw;
+  top: 2.5vh;
+  color: #e277be;
+  background: #e277be;
+  border-radius: 32px;
+}
+
+.progressBar {
+  -webkit-mask-image: url("/svg/about/navbar_mask.svg");
+  mask-image: url("/svg/about/navbar_mask.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  z-index: 120;
+  min-width: 5vw;
+  width: 5vw;
+  max-width: 85vw;
+  position: fixed;
+  height: 2vh;
+  left: 6vw;
+  right: 6vw;
+  top: 2.5vh;
+  border-radius: 32px;
+  color: #00ddff;
+  background-color: #00ddff;
+}
+.menu {
+  visibility: hidden;
+}
+
+#mlh {
+  z-index: 10000;
+  max-width: 200px;
+  min-width: 100px;
+  height: auto;
+  position: fixed;
+  top: 0vh;
+  right: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    left: 12vw;
+    .component {
+      font-size: 18px;
+    }
+  }
+  #mlh {
+    min-width: 60px;
+    right: 16px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    left: 9vw;
+    .component {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 820px) {
+  .navbg,
+  .progressBar,
+  .container,
+  .navbarContainer {
+    visibility: hidden;
+  }
+
+  .menu {
+    visibility: visible;
+    z-index: 100;
+    right: 0vw;
+    padding: 2vw;
+    position: fixed;
+    top: 0vh;
+  }
+  #mlh {
+    max-width: 70px;
+    min-width: 50px;
+    left: 20px;
+  }
+}
