@@ -1,4 +1,4 @@
-@import "../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .container {
   position: fixed;
@@ -26,8 +26,8 @@
 }
 
 .navbg {
-  -webkit-mask-image: url("/svg/about/navbar_mask.svg");
-  mask-image: url("/svg/about/navbar_mask.svg");
+  //-webkit-mask-image: url("/svg/about/navbar_mask.svg");
+  //mask-image: url("/svg/about/navbar_mask.svg");
   -webkit-mask-size: cover;
   mask-size: cover;
   z-index: 120;
@@ -43,8 +43,8 @@
 }
 
 .progressBar {
-  -webkit-mask-image: url("/svg/about/navbar_mask.svg");
-  mask-image: url("/svg/about/navbar_mask.svg");
+  //-webkit-mask-image: url("/svg/about/navbar_mask.svg");
+  //mask-image: url("/svg/about/navbar_mask.svg");
   -webkit-mask-size: cover;
   mask-size: cover;
   z-index: 120;

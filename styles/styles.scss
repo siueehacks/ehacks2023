@@ -1,0 +1,381 @@
+@import "variables.scss";
+
+.main {
+  position: relative;
+  background: linear-gradient(to top right, #2d0e25 23.88%, #2a2db2 89.37%, #2d31da 96.14%);
+}
+
+#main_large_ellipse {
+  position: absolute;
+  left: 0px;
+  z-index: 0;
+  animation: starryMotion 10s infinite;
+}
+
+#main_small_ellipse {
+  position: absolute;
+  z-index: 0;
+  right: 5vw;
+  top: 500px;
+  animation: starryMotion2 10s infinite;
+}
+
+#main_arc {
+  position: absolute;
+  z-index: 0;
+  top: 200px;
+  left: 25vw;
+  max-width: 80vw;
+  max-height: 80vh;
+  animation: glow2 3s ease-in-out infinite;
+}
+#about_blue_radgrad {
+  position: absolute;
+  left: 5vw;
+  top: 1000px;
+  width: 20vw;
+  height: auto;
+  animation: starryMotion 10s infinite;
+}
+#about_purple_radgrad {
+  z-index: 1;
+  position: absolute;
+  left: 10vw;
+  top: 1700px;
+  width: 25vw;
+  height: auto;
+  animation: starryMotion2 10s infinite;
+}
+#about_purple_orange_radgrad {
+  z-index: 1;
+  position: absolute;
+  left: 75vw;
+  top: 1900px;
+  width: 16vw;
+  height: auto;
+  animation: starryMotion 10s infinite;
+}
+#about_small_blue_radgrad {
+  z-index: 1;
+  position: absolute;
+  left: 70vw;
+  top: 1400px;
+  width: 10vw;
+  height: auto;
+  animation: starryMotion2 10s infinite;
+  animation: glow2 2s infinite;
+}
+#about_orange_arc {
+  position: absolute;
+  height: auto;
+  top: 800px;
+  right: 0vw;
+  max-width: 70vw;
+  z-index: 1;
+  animation: glow 3s ease-in-out infinite;
+}
+#tracks_giant_pink_ellipse {
+  position: absolute;
+  top: 2150px;
+  width: 50vw;
+  left: 20vw;
+  z-index: 1;
+  animation: starryMotion 10s infinite;
+}
+#tracks_teal_ellipse {
+  position: absolute;
+  top: 3200px;
+  left: 10vw;
+  z-index: 0;
+  animation: starryMotion2 10s infinite;
+}
+#tracks_blue_ellipse {
+  position: absolute;
+  right: 0px;
+  top: 2300px;
+  z-index: 0;
+  animation: glow2 3s ease-in-out infinite;
+}
+#tracks_pink_ellipse {
+  position: absolute;
+  top: 2700px;
+  right: 0vw;
+  z-index: 0;
+  animation: glow 3s ease-in-out infinite;
+}
+#general_pink_ellipse {
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+  width: 30vw;
+  animation: glow2 3s ease-in-out infinite;
+}
+#general_dark_blue_ellipse {
+  position: absolute;
+  z-index: 0;
+  top: 4200px;
+  width: 20vw;
+  left: 12vw;
+  animation: starryMotion 10s infinite;
+}
+#emerging_faint_blue_ellipse {
+  position: absolute;
+  right: 150px;
+  top: 5130px;
+  z-index: 1;
+  animation: starryMotion2 10s infinite;
+}
+
+#emerging_giant_pink_ellipse {
+  position: absolute;
+  top: 5500px;
+  right: 0px;
+  z-index: 0;
+  animation: glow 3s ease-in-out infinite;
+}
+
+#emerging_yellow_streak {
+  position: absolute;
+  top: 5700px;
+  right: 200px;
+  z-index: 1;
+  animation: glow2 3s ease-in-out infinite;
+}
+#emerging_pink_ellipse {
+  position: absolute;
+  left: 0px;
+  width: 30vw;
+  top: 4700px;
+  z-index: 1;
+  animation: glow 3s ease-in-out infinite;
+}
+
+#schedule_dark_blue_ellipse {
+  position: absolute;
+  left: 100px;
+  top: 6300px;
+  z-index: 1;
+  animation: starryMotion 10s infinite;
+}
+
+#schedule_faint_blue_ellipse {
+  position: absolute;
+  right: 100px;
+  top: 6800px;
+  z-index: 1;
+  animation: starryMotion2 10s infinite;
+}
+
+#schedule_pink_streak {
+  position: absolute;
+  right: 0px;
+  top: 6150px;
+  z-index: 0;
+  animation: glow2 3s ease-in-out infinite;
+}
+#faq_blue_ellipse {
+  position: absolute;
+  bottom: 1400px;
+  width: 30vw;
+  z-index: 1;
+  animation: glow 3s ease-in-out infinite;
+}
+#faq_red_streak {
+  position: absolute;
+  right: 0px;
+  width: 50vw;
+  bottom: 700px;
+  z-index: 0;
+  animation: glow2 3s ease-in-out infinite;
+}
+#sponsors_purple_blob {
+  z-index: 0;
+  position: absolute;
+  width: 30vw;
+  right: 70vw;
+  bottom: 600px;
+  animation: glow 3s ease-in-out infinite;
+}
+#sponsors_pink_ellipse {
+  z-index: 0;
+  position: absolute;
+  width: 20vw;
+  left: 0vw;
+  bottom: 150px;
+  animation: glow2 3s ease-in-out infinite;
+}
+#sponsors_blue_blob {
+  z-index: 0;
+  position: absolute;
+  width: 20vw;
+  right: 0vw;
+  bottom: 100px;
+  animation: glow 3s ease-in-out infinite;
+}
+#sponsors_pink_arc {
+  z-index: 0;
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  right: 0vw;
+  bottom: 200px;
+  animation: glow2 3s ease-in-out infinite;
+}
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.noSelect:focus {
+  outline: none !important;
+}
+
+@media (max-width: 1200px) {
+  #main_large_ellipse {
+    top: 150px;
+  }
+  #main_arc {
+    top: 180px;
+    left: 150px;
+  }
+}
+
+@media (max-width: 900px) {
+  #main_large_ellipse {
+    top: 50px;
+  }
+  #main_arc {
+    top: 200px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  #schedule_dark_blue_ellipse {
+    top: 0vh;
+    left: 0vw;
+  }
+}
+
+@media (max-width: 480px) {
+  #main_arc {
+    top: 300px;
+    left: 50px;
+  }
+  #main_large_ellipse {
+    animation: none;
+  }
+  #main_small_ellipse {
+    top: 60vh;
+    animation: none;
+  }
+}
+// Animations
+@keyframes starryMotion {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(10%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  75% {
+    transform: translateX(10%) translateY(10%);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes starryMotion2 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateY(10%);
+  }
+  50% {
+    transform: translateX(10%);
+  }
+  75% {
+    transform: translateX(10%) translateY(10%);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes glow {
+  0% {
+    opacity: 100%;
+  }
+  10% {
+    opacity: 90%;
+  }
+  20% {
+    opacity: 80%;
+  }
+  30% {
+    opacity: 70%;
+  }
+  40% {
+    opacity: 60%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  60% {
+    opacity: 60%;
+  }
+  70% {
+    opacity: 70%;
+  }
+  80% {
+    opacity: 80%;
+  }
+  90% {
+    opacity: 90%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes glow2 {
+  0% {
+    opacity: 50%;
+  }
+  10% {
+    opacity: 60%;
+  }
+  20% {
+    opacity: 70%;
+  }
+  30% {
+    opacity: 80%;
+  }
+  40% {
+    opacity: 90%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  60% {
+    opacity: 90%;
+  }
+  70% {
+    opacity: 80%;
+  }
+  80% {
+    opacity: 70%;
+  }
+  90% {
+    opacity: 60%;
+  }
+  100% {
+    opacity: 50%;
+  }
+}

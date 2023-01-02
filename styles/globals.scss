@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+* {
+  scroll-behavior: smooth;
+  border: red 1px solid;
+}
+
+@font-face {
+  font-family: "Retronoid";
+  src: url("/font/Retronoid-BZX3.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Retronoid";
+  src: url("/font/RetronoidItalic-8Xg2.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/font/TitilliumWeb-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url("/font/TitilliumWeb-Bold.ttf");
+  font-weight: bold;
+}
