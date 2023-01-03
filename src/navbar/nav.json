@@ -1,0 +1,28 @@
+{
+    "components": [
+      {
+        "name": "HOME",
+        "id": "#home"
+      },
+      {
+        "name": "ABOUT",
+        "id": "#about"
+      },
+      {
+        "name": "CONTACT",
+        "id": "#tracks_and_challenges"
+      },
+      {
+        "name": "FAQ",
+        "id": "#faq"
+      },
+      {
+        "name": "SCHEDULE",
+        "id": "#schedule"
+      },
+      {
+        "name": "SPONSORS",
+        "id": "#sponsors"
+      }
+    ]
+}
