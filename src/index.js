@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Navbar from './navbar/Navbar';
-import links from "../src/navbar/nav.json";
+import Navbar from './components/navbar/Navbar';
+import links from "./components/navbar/nav.json";
 import { ChakraProvider } from '@chakra-ui/react';
 
-import App from './pages/App';
+import App from './components/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
