@@ -1,10 +1,20 @@
-import { Text } from "@chakra-ui/react";
+import { Text, Box } from "@chakra-ui/react";
 
 const Contact = () => {
   return (
-    <div className="contact">
-      <Text>Contact</Text>
-    </div>
+    <Box
+      mb="30vh"
+      justifyContent="top"
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+    >
+      <Box display="flex" flexDirection="column" alignItems="center">
+        <Text fontSize="6xl" fontFamily="monospace">
+          Contact
+        </Text>
+      </Box>
+    </Box>
   );
 };
 

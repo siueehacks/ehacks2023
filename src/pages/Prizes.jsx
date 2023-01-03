@@ -1,10 +1,23 @@
-import {Text} from '@chakra-ui/react';
+import {Text, Box} from '@chakra-ui/react';
 
 const Prizes = () => {
   return (
-    <div className="prizes">
-      <Text>Prizes</Text>
-    </div>
+    <Box
+      mb="30vh"
+      justifyContent="top"
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+    >
+      <Box display="flex" flexDirection="column" alignItems="center">
+        <Text fontSize="6xl" fontFamily="monospace">
+          Prizes
+        </Text>
+        <Text mt="-5px" mb="3vh" ml="20vh" mr="20vh" fontSize="xl" fontFamily="monospace">
+          TBD
+        </Text>
+      </Box>
+    </Box>
   );
 };
 
