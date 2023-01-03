@@ -17,7 +17,7 @@ const Navbar = (np) => {
       <Center>
         <Box className={styles.navbg}>`</Box>
         <Box className={styles.progressBar} id="myBar"></Box>
-        <HStack draggable="false" className={styles.container} spacing={"8vw"}>
+        <HStack draggable="false" className={styles.container} spacing={"5vw"}>
           {np.anchors.map((anchor) => (
             <NavbarComponent key={null} name={anchor.name} anchorLink={anchor.id} />
           ))}
@@ -32,6 +32,13 @@ function scrollFunction() {
   const sections = document.querySelectorAll("section");
   let curr = "";
   let currSec = sections[1];
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (sectionTop) {
+      curr = section.getAttribute("id");
+      currSec = section;
+    }
+  });
   var scrollable = 0;
   var width = 0;
   switch (curr) {

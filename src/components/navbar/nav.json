@@ -13,6 +13,10 @@
         "id": "#schedule"
       },
       {
+        "name": "PRIZES",
+        "id": "#prizes"
+      },
+      {
         "name": "SPONSORS",
         "id": "#sponsors"
       },
