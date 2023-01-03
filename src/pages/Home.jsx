@@ -1,9 +1,13 @@
-import { Text, Button, Box } from "@chakra-ui/react";
+import { Text, Button, ButtonGroup, Box } from "@chakra-ui/react";
 
 const Home = () => {
-  const handleClick = () => {
-    console.log("Register Button clicked")
-  }
+  const handleRegister = () => {
+    console.log("Register Button clicked");
+  };
+
+  const handleSponsor = () => {
+    console.log("Sponsor Button clicked");
+  };
 
   return (
     <Box
@@ -21,7 +25,14 @@ const Home = () => {
           create awesome
         </Text>
       </Box>
-      <Button colorScheme="Black" variant="outline">Register</Button>
+      <ButtonGroup spacing="6">
+        <Button colorScheme="Black" variant="outline" onClick={handleSponsor}>
+          Sponsor
+        </Button>
+        <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
+          Register
+        </Button>
+      </ButtonGroup>
     </Box>
   );
 };
