@@ -99,13 +99,6 @@ function scrollFunction() {
   const sections = document.querySelectorAll("section");
   let curr = "";
   let currSec = sections[1];
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    if (scrollY > sectionTop) {
-      curr = section.getAttribute("id");
-      currSec = section;
-    }
-  });
   var scrollable = 0;
   var width = 0;
   switch (curr) {
