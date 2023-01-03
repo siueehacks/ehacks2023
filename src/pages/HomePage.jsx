@@ -1,14 +1,18 @@
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Faq from '../pages/Faq';
-import Prizes from '../pages/Prizes';
-import Schedule from '../pages/Schedule';
-import Sponsors from '../pages/Sponsors';
+import Home from '../components/Home';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Faq from '../components/Faq';
+import Prizes from '../components/Prizes';
+import Schedule from '../components/Schedule';
+import Sponsors from '../components/Sponsors';
+import Navbar from '../components/navbar/Navbar';
+import links from "../components/navbar/nav.json";
 
-const App = () => {
+
+const HomePage = () => {
     return (
         <div>
+            <Navbar anchors={links.components} />
             <section id="home">
             <Home />
             </section>
@@ -34,4 +38,4 @@ const App = () => {
     )
 }
 
-export default App;
+export default HomePage;
