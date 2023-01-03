@@ -1,7 +1,7 @@
 import NavbarComponent from "./NavbarComponent";
 
 import styles from "./Navbar.module.scss";
-import { HStack, Box, Menu, MenuButton, MenuItem, MenuList, Center, Link } from "@chakra-ui/react";
+import { HStack, Box, Center } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 const Navbar = (np) => {
@@ -15,8 +15,8 @@ const Navbar = (np) => {
     <div>
       <Box className={styles.navbarContainer}>.</Box>
       <Center>
-        <Box className={styles.navbg}>`</Box>
-        <Box className={styles.progressBar} id="myBar"></Box>
+        {/*<Box className={styles.navbg}>`</Box>
+        <Box className={styles.progressBar} id="myBar"></Box>*/}
         <HStack draggable="false" className={styles.container} spacing={"5vw"}>
           {np.anchors.map((anchor) => (
             <NavbarComponent key={null} name={anchor.name} anchorLink={anchor.id} />
