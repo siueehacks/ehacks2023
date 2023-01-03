@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import Navbar from './components/navbar/Navbar';
 import links from "./components/navbar/nav.json";
 import { ChakraProvider } from '@chakra-ui/react';
+import { BrowserRouter } from "react-router-dom";
 
 import App from './components/App';
 
@@ -13,7 +14,9 @@ root.render(
   <React.StrictMode>
     <Navbar anchors={links.components} />
     <ChakraProvider>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>
 );
