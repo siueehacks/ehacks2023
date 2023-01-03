@@ -9,13 +9,27 @@ import Sponsors from '../pages/Sponsors';
 const App = () => {
     return (
         <div>
+            <section id="home">
             <Home />
+            </section>
+            <section id="about">
             <About />
+            </section>
+            <section id="schedule">
             <Schedule />
+            </section>
+            <section id="prizes">
             <Prizes />
+            </section>
+            <section id="sponsors">
             <Sponsors />
+            </section>
+            <section id="faq">
             <Faq />
+            </section>
+            <section id="contact">
             <Contact />
+            </section>
         </div>
     )
 }

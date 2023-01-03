@@ -9,20 +9,20 @@
         "id": "#about"
       },
       {
-        "name": "CONTACT",
-        "id": "#tracks_and_challenges"
-      },
-      {
-        "name": "FAQ",
-        "id": "#faq"
-      },
-      {
         "name": "SCHEDULE",
         "id": "#schedule"
       },
       {
         "name": "SPONSORS",
         "id": "#sponsors"
+      },
+      {
+        "name": "FAQ",
+        "id": "#faq"
+      },
+      {
+        "name": "CONTACT",
+        "id": "#contact"
       }
     ]
 }
