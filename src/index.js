@@ -10,6 +10,7 @@ import {
 
 import HomePage from './pages/HomePage';
 import Registration from './pages/Registration';
+import './fonts.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
