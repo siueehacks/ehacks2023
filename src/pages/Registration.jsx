@@ -28,7 +28,7 @@ export default function Registration() {
       return (
         <form onSubmit={handleSubmit(onSubmit)}>
           <FormControl isInvalid={errors.name}>
-            <FormLabel htmlFor='name'>First name</FormLabel>
+            <FormLabel htmlFor='name'>email address</FormLabel>
             <Input
               id='name'
               placeholder='name'
