@@ -1,6 +1,4 @@
 import { 
-    Text, 
-    Box,
     FormErrorMessage,
     FormLabel,
     FormControl,
