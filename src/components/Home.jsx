@@ -3,6 +3,7 @@ import { Text, Button, Box } from "@chakra-ui/react";
 const Home = () => {
   const handleRegister = () => {
     console.log("Register Button clicked");
+    
   };
 
   return (
