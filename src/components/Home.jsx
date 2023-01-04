@@ -1,8 +1,10 @@
 import { Text, Button, ButtonGroup, Box } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const handleRegister = () => {
     console.log("Register Button clicked");
+    
   };
 
   const handleSponsor = () => {
@@ -29,9 +31,11 @@ const Home = () => {
         <Button colorScheme="Black" variant="outline" onClick={handleSponsor}>
           Sponsor
         </Button>
+        <Link to="/Registration">
         <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
           Register
         </Button>
+        </Link>
       </ButtonGroup>
     </Box>
   );
