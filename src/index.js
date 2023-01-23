@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 
 import HomePage from './pages/HomePage';
-import Registration from './pages/Registration';
 import './fonts.css'
 
 
@@ -20,7 +19,6 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage/>} />
-          <Route path="/Registration" element={<Registration/>} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>
