@@ -1,14 +1,9 @@
-import { Text, Button, ButtonGroup, Box } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Text, Button, Box } from "@chakra-ui/react";
 
 const Home = () => {
   const handleRegister = () => {
     console.log("Register Button clicked");
     
-  };
-
-  const handleSponsor = () => {
-    console.log("Sponsor Button clicked");
   };
 
   return (
@@ -24,7 +19,10 @@ const Home = () => {
           eHacks
         </Text>
         <Text mt="-22px" mb="3vh" fontSize="xl" fontFamily="monospace">
-          create awesome
+          March 3-5, 2023
+        </Text>
+        <Text mt="-22px" mb="3vh" fontSize="xl" fontFamily="monospace">
+          T-Rex Innovation Center, St. Louis, MO
         </Text>
       </Box>
       <ButtonGroup spacing="6">
