@@ -58,14 +58,14 @@ const Faq = () => {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                  Will sleeping accomadations be provided?
+                  Will sleeping accommodations be provided?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
               Unfortunately, we will not be able to provide any sleeping
-              accomodations. We recommend that if you plan on spending the night
+              accommodations. We recommend that if you plan on spending the night
               at the venue, that you bring sleeping bags and pillows.
             </AccordionPanel>
           </AccordionItem>

@@ -7,32 +7,37 @@ import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
 import Navbar from "../components/navbar/Navbar";
 import links from "../components/navbar/nav.json";
+import "./Home.css";
 
 const HomePage = () => {
   return (
-    <div>
-      <Navbar anchors={links.components} />
-      <section id="home">
-        <Home />
-      </section>
-      <section id="about">
-        <About />
-      </section>
-      <section id="schedule">
-        <Schedule />
-      </section>
-      <section id="prizes">
-        <Prizes />
-      </section>
-      <section id="sponsors">
-        <Sponsors />
-      </section>
-      <section id="faq">
-        <Faq />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
+    <div className="Page">
+      <div>
+        <Navbar anchors={links.components} />
+      </div>
+      <div className="ContentBox">
+        <section className="Anchor" id="home">
+          <Home />
+        </section>
+        <section className="Anchor" id="about">
+          <About />
+        </section>
+        <section className="Anchor" id="schedule">
+          <Schedule />
+        </section>
+        <section className="Anchor" id="prizes">
+          <Prizes />
+        </section>
+        <section className="Anchor" id="sponsors">
+          <Sponsors />
+        </section>
+        <section className="Anchor" id="faq">
+          <Faq />
+        </section>
+        <section className="Anchor" id="contact">
+          <Contact />
+        </section>
+      </div>
     </div>
   );
 };

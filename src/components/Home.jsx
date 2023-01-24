@@ -1,7 +1,12 @@
-import { Text, Button, Box } from "@chakra-ui/react";
+import { Text, Button, Box, ButtonGroup } from "@chakra-ui/react";
 
 const Home = () => {
   const handleRegister = () => {
+    console.log("Register Button clicked");
+    
+  };
+
+  const handleSponsor = () => {
     console.log("Register Button clicked");
     
   };

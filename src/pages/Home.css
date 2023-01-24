@@ -1,0 +1,26 @@
+.ContentBox {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  background-color: #7e108f;
+  border-radius: 20px;
+  color: white;
+  background-image: url(../assets/BG.png);
+  box-shadow: 0 0 60px 30px #7e108f, /* inner purple */ 0 0 100px 60px #f0f,
+    /* middle magenta */ 0 0 140px 90px #0ff; /* outer cyan */
+}
+
+.Page {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Anchor {
+  padding-top: 20vh;
+  margin-top: -20vh;
+}

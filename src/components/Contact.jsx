@@ -3,7 +3,7 @@ import { Text, Box } from "@chakra-ui/react";
 const Contact = () => {
   return (
     <Box
-      mb="30vh"
+      mb="80vh"
       justifyContent="top"
       display="flex"
       flexDirection="column"
