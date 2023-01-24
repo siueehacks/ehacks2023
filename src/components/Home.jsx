@@ -31,9 +31,11 @@ const Home = () => {
         </Text>
       </Box>
       <ButtonGroup spacing="6">
+        {/*
         <Button colorScheme="Black" variant="outline" onClick={handleSponsor}>
           Sponsor
         </Button>
+        */}
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ9sqC-8eBCka37qTaIphhABF4cL9wvk7mzyDcXS0coLOpkQ/viewform?usp=sf_link">
         <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
           Register
