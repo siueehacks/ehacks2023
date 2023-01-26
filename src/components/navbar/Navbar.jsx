@@ -1,7 +1,7 @@
 import NavbarComponent from "./NavbarComponent";
 
 import styles from "./Navbar.module.scss";
-import { HStack, Box, Center } from "@chakra-ui/react";
+import { HStack, Box } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 const Navbar = (np) => {
