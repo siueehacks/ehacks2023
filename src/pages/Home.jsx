@@ -5,10 +5,6 @@ const Home = () => {
     console.log("Register Button clicked");
   };
 
-  const handleSponsor = () => {
-    console.log("Sponsor Button clicked");
-  };
-
   return (
     <Box
       height="100vh"
@@ -26,7 +22,7 @@ const Home = () => {
         </Text>
       </Box>
       <ButtonGroup spacing="6">
-        <Button colorScheme="Black" variant="outline" onClick={handleSponsor}>
+        <Button colorScheme="Black" variant="outline">
           Sponsor
         </Button>
         <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
