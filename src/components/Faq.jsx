@@ -21,21 +21,20 @@ const Faq = () => {
         <Text fontSize="6xl" fontFamily="monospace">
           FAQ
         </Text>
-        <Accordion allowToggle allowMultiple width="70vw">
+        <Accordion allowToggle allowMultiple width="70vw" fontFamily="monospace">
           <AccordionItem>
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                  Section 1 title
+                  How much coding experience do I need to participate?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Absolutely none! eHacks is open to participants of all skill
+              levels. We will have mentors available to help you with any
+              questions you may have.
             </AccordionPanel>
           </AccordionItem>
 
@@ -43,16 +42,31 @@ const Faq = () => {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                  Section 2 title
+                  Will there be food?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Yes! All of the meals will be provided at no charge to the
+              participants over the course of the weekend. There will also be
+              plenty of snacks and drinks available throughout as well.
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  Will sleeping accommodations be provided?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Unfortunately, we will not be able to provide any sleeping
+              accommodations. We recommend that if you plan on spending the night
+              at the venue, that you bring sleeping bags and pillows.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>

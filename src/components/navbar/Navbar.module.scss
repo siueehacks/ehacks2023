@@ -20,7 +20,6 @@
   z-index: 80;
   width: 100vw;
   height: 13vh;
-  opacity: 85%;
   box-shadow: 10px 10px 100px 10px #000000;
   background: #000000d6;
 }
@@ -116,3 +115,5 @@
     left: 20px;
   }
 }
+
+html{scroll-behavior:smooth}
