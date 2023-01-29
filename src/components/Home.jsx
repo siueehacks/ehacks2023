@@ -18,7 +18,7 @@ const Home = () => {
         <Text fontSize="6xl" fontFamily="monospace">
           eHacks
         </Text>
-        <Text mt="-22px" mb="3vh" fontSize="xl" fontFamily="monospace">
+        <Text mt="0px" mb="3vh" fontSize="xl" fontFamily="monospace">
           March 3-5, 2023
         </Text>
         <Text mt="-22px" mb="3vh" fontSize="xl" fontFamily="monospace">
