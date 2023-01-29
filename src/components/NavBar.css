@@ -10,6 +10,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  gap: 1vw;
   padding: 0 14vw;
   color: white;
   font-size: 2vmax;
@@ -38,8 +39,8 @@
 }
 
 .NavButton {
-  height: 8vw;
-  width: 8vw;
+  height: 8vmin;
+  width: 8vmin;
 }
 
 .NavBurger {
