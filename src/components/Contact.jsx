@@ -16,8 +16,8 @@ const Contact = () => {
         <Text
           mt="-5px"
           mb="3vh"
-          ml="20vh"
-          mr="20vh"
+          ml="5vmin"
+          mr="5vmin"
           fontSize="xl"
           fontFamily="monospace"
         >

@@ -13,7 +13,7 @@ const Sponsors = () => {
         <Text fontSize="6xl" fontFamily="monospace">
           Sponsors
         </Text>
-        <Text mt="-5px" mb="3vh" ml="20vh" mr="20vh" fontSize="xl" fontFamily="monospace">
+        <Text mt="-5px" mb="3vh" ml="5vmin" mr="5vmin" fontSize="xl" fontFamily="monospace">
           TBA
         </Text>
       </Box>
