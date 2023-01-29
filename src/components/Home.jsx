@@ -22,16 +22,15 @@ const Home = () => {
           March 3-5, 2023
         </Text>
         <Text mt="-22px" mb="3vh" fontSize="xl" fontFamily="monospace">
-          T-Rex Innovation Center, St. Louis, MO
+          T-Rex Innovation Center<br/>St. Louis, MO
         </Text>
       </Box>
-      <ButtonGroup spacing="6">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ9sqC-8eBCka37qTaIphhABF4cL9wvk7mzyDcXS0coLOpkQ/viewform?usp=sf_link">
-        <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
-          Register
-        </Button>
-        </a>
-      </ButtonGroup>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ9sqC-8eBCka37qTaIphhABF4cL9wvk7mzyDcXS0coLOpkQ/viewform?usp=sf_link">
+      <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
+        Register
+      </Button>
+      </a>
+
     </Box>
   );
 };
