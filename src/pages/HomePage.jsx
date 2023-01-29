@@ -5,15 +5,14 @@ import Faq from "../components/Faq";
 import Prizes from "../components/Prizes";
 import Schedule from "../components/Schedule";
 import Sponsors from "../components/Sponsors";
-import Navbar from "../components/navbar/Navbar";
-import links from "../components/navbar/nav.json";
+import Navbar from "../components/Navbar";
 import "./Home.css";
 
 const HomePage = () => {
   return (
     <div className="Page">
       <div>
-        <Navbar anchors={links.components} />
+        <Navbar/>
       </div>
       <div className="ContentBox">
         <section className="Anchor" id="home">
