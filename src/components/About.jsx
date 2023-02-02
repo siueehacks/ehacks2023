@@ -21,7 +21,7 @@ const About = () => {
           fontSize="xl"
           fontFamily="monospace"
         >
-          eHacks is Southern Illinois University Edwardville's annual hackathon,
+          eHacks is Southern Illinois University Edwardsville's annual hackathon,
           making our return from pre-pandemic. It is a 36-hour, weekend long
           event where participants come together to create innovative projects.
           eHacks provides a great opportunity for students to learn new
