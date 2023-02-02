@@ -26,7 +26,7 @@ const Home = () => {
         </Text>
       </Box>
       <ButtonGroup spacing="6">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ9sqC-8eBCka37qTaIphhABF4cL9wvk7mzyDcXS0coLOpkQ/viewform?usp=sf_link">
+        <a href="https://formfacade.com/public/110443485080613872121/all/form/1FAIpQLSdJ9sqC-8eBCka37qTaIphhABF4cL9wvk7mzyDcXS0coLOpkQ">
         <Button colorScheme="Black" variant="outline" onClick={handleRegister}>
           Register
         </Button>
