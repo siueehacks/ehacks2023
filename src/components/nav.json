@@ -1,0 +1,32 @@
+{
+    "components": [
+      {
+        "name": "HOME",
+        "id": "#home"
+      },
+      {
+        "name": "ABOUT",
+        "id": "#about"
+      },
+      {
+        "name": "SCHEDULE",
+        "id": "#schedule"
+      },
+      {
+        "name": "PRIZES",
+        "id": "#prizes"
+      },
+      {
+        "name": "SPONSORS",
+        "id": "#sponsors"
+      },
+      {
+        "name": "FAQ",
+        "id": "#faq"
+      },
+      {
+        "name": "CONTACT",
+        "id": "#contact"
+      }
+    ]
+}
