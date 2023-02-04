@@ -36,6 +36,7 @@ const HomePage = () => {
         <section className="Anchor" id="contact">
           <Contact />
         </section>
+        <p>Made with {'\u2764'} by the ehacks team</p>
       </div>
     </div>
   );
