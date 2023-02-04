@@ -1,4 +1,5 @@
-import { Text, Button, Box, ButtonGroup } from "@chakra-ui/react";
+import { Text, Button, Box } from "@chakra-ui/react";
+import SocialLinks from "./SocialLinks";
 
 const Home = () => {
   const handleRegister = () => {
@@ -32,6 +33,7 @@ const Home = () => {
           Register
         </Button>
       </a>
+      <SocialLinks />
     </Box>
   );
 };
