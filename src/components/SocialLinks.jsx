@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const SocialLinks = () => {
   return (
@@ -10,9 +10,9 @@ const SocialLinks = () => {
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
-        <a href="https://ehacks.io/" className="instagram social">
-            <FontAwesomeIcon icon={faDiscord} size="2x" />
-        </a>
+      <a href="https://github.com/siue-ehacks">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
+      </a>
     </div>
   );
 };
