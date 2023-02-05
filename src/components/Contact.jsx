@@ -21,8 +21,8 @@ const Contact = () => {
           fontSize="xl"
           fontFamily="monospace"
         >
-          <a href="mailto:siuehacks@gmail.com">
-            siuehacks@gmail.com
+          <a href="mailto:siue.ehacks@gmail.com">
+            siue.ehacks@gmail.com
           </a>
         </Text>
       </Box>
