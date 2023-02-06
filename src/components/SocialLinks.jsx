@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
+import "./SocialLinks.css";
+
 const SocialLinks = () => {
   return (
-    <div class="social-container">
+    <div className="socialContainer">
       <a
         href="https://www.instagram.com/siu_ehacks/"
         className="instagram social"
