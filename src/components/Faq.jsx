@@ -167,6 +167,19 @@ const Faq = () => {
               in fours. If you want, you can also work by yourself.
             </AccordionPanel>
           </AccordionItem>
+                    <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left" fontSize="xl">
+                  Will there be travel reimbursements?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4} fontSize="lg">
+              We are unfortunately not able to provide travel reimbursements.
+            </AccordionPanel>
+          </AccordionItem>
         </Accordion>
       </Box>
     </Box>
